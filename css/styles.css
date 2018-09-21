@@ -10,6 +10,7 @@ h1 {
   font-size: 30px;
   font-family: "Poppins";
   color: #ffffff;
+  padding-left: 15px;
 }
 
 h2 {
@@ -31,17 +32,45 @@ h4 {
 p {
   font-family: "Poppins";
   color: #ffffff;
+  padding-left: 15px;
 }
 
 #fullsite {
   background-color: #487AF3;
 }
 
+#hamburger-menu {
+  float: right;
+  padding-right: 15px;
+}
+
 .header {
   background-color: #000000;
-  height: 60px;
+  height: 40px;
+  padding-left: 15px;
+  padding-top: 20px;
 }
 
 .progress {
   background-color: #ffffff;
+  height: 480px;
+}
+
+.button-ghost {
+  line-height: 40px;
+  width: 150px;
+  border-radius: 30px;
+  box-sizing: border-box;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+#button-filled {
+  background-color: ffffff;
+  color: #487AF3;
 }
