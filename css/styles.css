@@ -1,58 +1,111 @@
 body {
-    background-color: #c4c4c4;
-    margin:0 auto;
-    padding: 0px;
-    border: 0px;
-    width: 1010px;
+  background-image: linear-gradient(to left, #3E6AFE, #4DD4E2);
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
 }
 
 h1 {
   font-size: 30px;
   font-family: "Poppins";
-  color: #ffffff;
-  padding-left: 15px;
+  font-weight: 500;
+  line-height: 1.25em;
+  margin-top:0px;
+  margin-bottom: 0px;
 }
 
 h2 {
+  font-size: 30px;
+  font-weight: 500;
   text-align: center;
-  }
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
 
 h3 {
   text-align: center;
   font-size: 13px;
-  font-family: "Poppins";
-  color: ##777777;
+  font-weight: 200;
 }
 
 h4 {
   text-align: center;
+  font-size: 20px;
   margin: 0px;
 }
 
 p {
-  font-family: "Poppins";
-  color: #ffffff;
-  padding-left: 15px;
+  margin-top:0px;
+  margin-bottom: 0px;
 }
 
-#fullsite {
-  background-color: #487AF3;
-}
-
-#hamburger-menu {
-  float: right;
-  padding-right: 15px;
-}
+/* -------------- class --------------*/
 
 .header {
-  background-color: #000000;
-  height: 40px;
-  padding-left: 15px;
-  padding-top: 20px;
+  height: 59px;
+  width: 1010px;
+  margin:0 auto;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.logo {
+  padding-top: 21px;
+  margin-left: 20px;
+}
+
+.hamburger-menu {
+  float: right;
+  width: 18px;
+  height: 12px;
+  padding-right: 20px;
+}
+
+.footer {
+  height: 59px;
+  width: 1010px;
+  margin:0 auto;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.features {
+  color: #ffffff;
+  padding: 0px;
+}
+
+.hero {
+  height: 480px;
+  width: 1010px;
+  margin:0 auto;
+  padding: 0px;
+  background-image: linear-gradient(to right, #3E6AFE, #4DD4E2);
+}
+
+.hero-leftside {
+  height: 480px;
+  width: 600px;
+  padding-left: 20px;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.text-gray {
+  color: #777777;
+}
+
+.text-black {
+  color: #222222;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
 }
 
 .progress {
-  background-color: #ffffff;
   height: 480px;
 }
 
@@ -63,14 +116,43 @@ p {
   box-sizing: border-box;
   border: 1px solid #ffffff;
   background-color: transparent;
-  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   color: #ffffff;
 }
 
-#button-filled {
-  background-color: ffffff;
-  color: #487AF3;
+.common-input {
+  order: 1px solid rgba(255, 255, 255, 0.3);
+  line-height: 48px;
+  width: 100%;
+  display: block;
+  background: transparent;
+  padding: 0 25px;
+  color: #fff;
 }
+
+
+/* -------------- id --------------*/
+
+#logo-footer {
+  float: left;
+  margin-top: 21px;
+  margin-left: 20px;
+  margin-right: 147px;
+}
+
+#footer-center {
+  float: left;
+  margin-top: 20px;
+  text-align: left;
+
+}
+
+#bg-gradient {
+  background-image: linear-gradient(to right, #3E6AFE, #4DD4E2);
+  }
+
+#bg-white {
+  background-color: #ffffff;
+  }

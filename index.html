@@ -4,121 +4,137 @@
     <head>
         <meta charset="utf-8">
         <title>BOBSL website</title>
-        <link rel="stylesheet" href="./css/styles.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+        <link href="./css/styles.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,500,600" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     </head>
 
     <body>
-        <div id=fullsite>
-
-                <!-- Header -->
-                    <div class=header>
-
-                          <a href="index.html">
-                              <img src="./img/logo.png" alt="company logo">
-                          </a>
-
-                          <div id="hamburger-menu">
-                                <img src="./img/baseline-menu-24px.svg" alt="hamburger menu">
-                          </div>
-
-                    </div>
-
-        <!-- "Don't look" block -->
-            <div class=bigpicture>
-                <h1>Don't look anywhere,<br>this is the best place on website</h1>
-                    <p>Living in today's metropolitan world cellular phones, mobile computers and other high-tech gadgets is not just hecticc but very</p>
-                            <button type="button" class="button-ghost">Get Started</button><br>
-                                <img src="./img/hero-bg.png" height="540" width="644">
+        <!-- Header -->
+        <div class="header" id="bg-gradient">
+            <div class="logo">
+                <a href="index.html"></a><img src="./img/logo.png" alt="company logo">
+                <div class="hamburger-menu">
+                    <img src="./img/baseline-menu-24px.svg" alt="hamburger menu">
+                </div>
             </div>
 
+        </div>
+
+        <!-- Hero block -->
+        <div class="hero">
+              <div class="hero-leftside">
+                  <h1 class="text-white text-uppercase">Don't look anywhere,<br>this is the best place on website</h1>
+                  <p class="text-white">Living in today's metropolitan world cellular phones, mobile computers and other high-tech gadgets is not just hecticc but very</p>
+                  <button type="button" class="button-ghost">Get Started</button><br>
+              </div>
+<!--
+            <img id="hero-bg" src="./img/hero-bg.png" height="540" width="644">
+        </div>
+ -->
         <!-- "Progress" block -->
-            <div class=progress>
-                <h2>Our Working Process</h2>
-                    <h3>It won't be a bigger problem to find one video game lover in your neightbor. Since the introduction of Virtual Game, it has been achieving</h3>
-
+        <div class="progress" id="bg-white">
+            <h2 class="text-black">Our Working Process</h2>
+            <h3>It won't be a bigger problem to find one video game lover in your neightbor. Since the introduction of Virtual Game, it has been achieving</h3>
             1. Researching 2. Wireframing 3. Prototyping 4. Final Design
-
-            </div>
+        </div>
 
         <!-- "Features" block -->
-            <div class=features>
-                <h2>Our Exclusive Features</h2>
-                    <h3>Living in today’s metropolitan world of cellular phones, mobile computers and other high-tech gadgets is not just hectic but very</h3>
+        <div class="features" id="bg-gradient">
+            <h2>Our Exclusive Features</h2>
+            <h3>Living in today’s metropolitan world of cellular phones, mobile computers and other high-tech gadgets is not just hectic but very</h3>
 
-                    <!-- "Creative Design" block -->
-                        <img src="./img/t1.jpg"><br>
-                            <h2>Creative Design</h2>
-                                <h3>LCD screens are uniquely modern in style, and the liquid crystals that make them work have allowed humanity to create slimmer, more portable technology.</h3>
-                                    <button type="button" class="button-ghost">Read More</button><br>
-                                    <br>
+                <!-- "Creative Design" block -->
+                <img src="./img/t1.jpg"><br>
+                    <h4>Creative Design</h4>
+                    <h3>LCD screens are uniquely modern in style, and the liquid crystals that make them work have allowed humanity to create slimmer, more portable technology.</h3>
+                    <button type="button" class="button-ghost">Read More</button><br>
+                    <br>
 
-                    <!-- "Appropriate UX" block -->
-                        <img src="./img/t2.jpg">
-                            <h2>Appropriate UX</h2>
-                                <h3>There are advances being made in science and technology everyday, and a good example of this is the LCD monitor. LCD</h3>
-                                    <button type="button"class="button-ghost">Read More</button><br>
-                                    <br>
+                <!-- "Appropriate UX" block -->
+                <img src="./img/t2.jpg">
+                    <h4>Appropriate UX</h4>
+                    <h3>There are advances being made in science and technology everyday, and a good example of this is the LCD monitor. LCD</h3>
+                    <button type="button"class="button-ghost">Read More</button><br>
+                    <br>
 
-                    <!-- "Super Clean Code" block -->
-                        <img src="./img/t3.jpg">
-                            <h2>Super Clean Code</h2>
-                              <h3>Sony laptops are among the most well known laptops on today’s market. Sony is a name that over time has established itself</h3>
-                                <button type="button" class="button-ghost">Read More</button><br>
-            </div>
+                <!-- "Super Clean Code" block -->
+                <img src="./img/t3.jpg">
+                    <h4>Super Clean Code</h4>
+                    <h3>Sony laptops are among the most well known laptops on today’s market. Sony is a name that over time has established itself</h3>
+                    <button type="button" class="button-ghost">Read More</button><br>
+        </div>
 
         <!-- "Remarkable" block -->
-            <div class=remarkable>
-                <h2>Remarkable Works</h2>
-                    <h3>LCD screens are uniquely modern in style, and the liquid crystals that make them work have allowed humanity to create slimmer, more</h3>
+        <div id="bg-white">
+            <h2 class="text-black">Remarkable Works</h2>
+            <h3>LCD screens are uniquely modern in style, and the liquid crystals that make them work have allowed humanity to create slimmer, more</h3>
 
-                        <h2>Vector Illustration</h2>
-                            <img src="./img/r1.jpg" height="350" width="653">
-                                <h3>LCD screens are uniquely modern in style, and the liquid crystals that make them work have allowed humanity to create slimmer, more portable technology.</h3>
-                                <button type="button" class="button-ghost">View Project</button>
+            <h4>Vector Illustration</h2>
+                <img src="./img/r1.jpg" height="350" width="653">
+                <h3>LCD screens are uniquely modern in style, and the liquid crystals that make them work have allowed humanity to create slimmer, more portable technology.</h3>
+                <button type="button" class="button-ghost">View Project</button>
 
-                        <h2>Vector Illustration</h2>
-                            <img src="./img/r2.jpg" height="350" width="485">
-                                <h3>While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun and excitement it provides, others may experience gambling as an addictive and distractive habit. Statistics show that while 85 percent of the adult population in</h3>
-                                <button type="button" class="button-ghost">View Project</button>
+            <h4>Vector Illustration</h2>
+                <img src="./img/r2.jpg" height="350" width="485">
+                <h3>While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun and excitement it provides, others may experience gambling as an addictive and distractive habit. Statistics show that while 85 percent of the adult population in</h3>
+                <button type="button" class="button-ghost">View Project</button>
 
-                        <h2>Vector Illustration</h2>
-                            <img src="./img/r3.jpg" height="350" width="653">
-                                <h3>LCD screens are uniquely modern in style, and the liquid crystals that make them work have allowed humanity to create slimmer, more portable technology.</h3>
-                                <button type="button" class="button-ghost">View Project</button>
+            <h4>Vector Illustration</h2>
+                <img src="./img/r3.jpg" height="350" width="653">
+                <h3>LCD screens are uniquely modern in style, and the liquid crystals that make them work have allowed humanity to create slimmer, more portable technology.</h3>
+                <button type="button" class="button-ghost">View Project</button>
             </div>
 
         <!-- "From the part" block -->
+        <div id="bg-gradient">
             <h2>From the part of beginning</h2>
                 <h3>Usage of the internet is becoming more common due to rapid advancement of technology and the power of globalization. Societies are becoming more inter/connected. Thoughts from different.</h3>
                     <button type="button" class="button-ghost">Get Started</button>
+        </div>
 
         <!-- Newsletter block -->
+        <div id="bg-white">
             <h2>Subscribe for our Newsletter</h2>
                 <h3>Can you imagine what we will be downloading in another</h3>
                     <input type="text" value="Your email address">
                     <button type="button" class="button-ghost">Subscribe</button>
+        </div>
 
         <!-- Keep in Touch block -->
-            <h2>Keep in Touch</h2>
-                <h3>Most people who work in an office environment, buy computer products, or have a computer at home have had the “fun” experience of dealing<h3>
-                    <input type="text" value="Enter your name">
+            <h2 class="text-white">Keep in Touch</h2>
+                <h3 class="text-white">Most people who work in an office environment, buy computer products, or have a computer at home have had the “fun” experience of dealing<h3>
+                    <input class="common-input" type="text" value="Enter your name">
                     <input type="text" value="Enter email address">
                     <input type="text" value="Message">
                     <button type="button" class="button-ghost" id="button-filled">Send Message</button>
 
         <!-- Contact block -->
-            <h3>Address</h3>
-                <h4>56/8, panthapath,wes<br>dhanmondi, kalabagan</h4>
+        <h3 class="text-white">Address</h3>
+            <h4 class="text-white">56/8, panthapath,wes<br>dhanmondi, kalabagan</h4>
 
-            <h3>Email Address</h3>
-                <h4>info@dataarc.com<br>support@dataarc.com</h4>
+        <h3 class="text-white">Email Address</h3>
+            <h4 class="text-white">info@dataarc.com<br>support@dataarc.com</h4>
 
-            <h3>Phone Number</h3>
-                <h4>012 4562 982 3612<br>012 6321 956 4587</h4>
+        <h3 class="text-white">Phone Number</h3>
+            <h4 class="text-white">012 4562 982 3612<br>012 6321 956 4587</h4>
 
         <!-- Footer -->
-                <h4>Copyright © 2017 | All rights reserved to <a href="https://colorlib.com">Dinomuz inc.</a> Designed by <a href="https://colorlib.com">Colorlib</a></h4>
-          </div>
+        <div class="footer">
+            <a href="index.html">
+              <img id="logo-footer" src="./img/logo.png" alt="company logo">
+            </a>
+
+            <h3 class="text-white" id="footer-center">Copyright © 2017 | All rights reserved to <a href="https://colorlib.com">Dinomuz inc.</a> Designed by <a href="https://colorlib.com">Colorlib</a></h3>
+
+            <div>
+
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-dribbble"></i>
+                <i class="fab fa-behance"></i>
+
+            </div>
+        </div>
     </body>
 </html>
